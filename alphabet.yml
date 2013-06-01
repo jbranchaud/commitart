@@ -1,0 +1,154 @@
+---
+A:
+- width: 7
+- height: 7
+- chars: "0001000\
+          0010100\
+          0100010\
+          0111110\
+          0100010\
+          0100010\
+          0100010"
+B:
+- width: 7
+- height: 7
+- chars: "0111100\
+          0100010\
+          0100010\
+          0111100\
+          0100010\
+          0100010\
+          0111100"
+C:
+- width: 7
+- height: 7
+- chars: "0011100\
+          0100010\
+          0100000\
+          0100000\
+          0100000\
+          0100010\
+          0011100"
+D:
+- width: 7
+- height: 7
+- chars: ""
+E:
+- width: 7
+- height: 7
+- chars: ""
+F:
+- width: 7
+- height: 7
+- chars: ""
+G:
+- width: 7
+- height: 7
+- chars: "0011100\
+          0100010\
+          0100000\
+          0100000\
+          0101100\
+          0100010\
+          0011100"
+H:
+- width: 7
+- height: 7
+- chars: "0100010\
+          0100010\
+          0100010\
+          0111110\
+          0100010\
+          0100010\
+          0100010"
+I:
+- width: 7
+- height: 7
+- chars: "0111110\
+          0001000\
+          0001000\
+          0001000\
+          0001000\
+          0001000\
+          0111110"
+J:
+- width: 7
+- height: 7
+- chars: ""
+K:
+- width: 7
+- height: 7
+- chars: ""
+L:
+- width: 7
+- height: 7
+- chars: ""
+M:
+- width: 7
+- height: 7
+- chars: ""
+N:
+- width: 7
+- height: 7
+- chars: ""
+O:
+- width: 7
+- height: 7
+- chars: ""
+P:
+- width: 7
+- height: 7
+- chars: ""
+Q:
+- width: 7
+- height: 7
+- chars: ""
+R:
+- width: 7
+- height: 7
+- chars: ""
+S:
+- width: 7
+- height: 7
+- chars: ""
+T:
+- width: 7
+- height: 7
+- chars: "0111110\
+          0001000\
+          0001000\
+          0001000\
+          0001000\
+          0001000\
+          0001000"
+U:
+- width: 7
+- height: 7
+- chars: "0100010\
+          0100010\
+          0100010\
+          0100010\
+          0100010\
+          0100010\
+          0011100"
+V:
+- width: 7
+- height: 7
+- chars: ""
+W:
+- width: 7
+- height: 7
+- chars: ""
+X:
+- width: 7
+- height: 7
+- chars: ""
+Y:
+- width: 7
+- height: 7
+- chars: ""
+Z:
+- width: 7
+- height: 7
+- chars: ""
+...
