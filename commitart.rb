@@ -33,7 +33,7 @@ module CommitArt
 #      Alphabet.letter_to_hash(char)
 #    end
     char_strings = chars.split("").map do |char|
-      Alphabet.get_letter_chars(char)
+      Alphabet.get_chronological_letter_chars(char)
     end
     ref_date = find_oldest_sunday
     char_strings.each do |char_string|

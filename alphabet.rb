@@ -31,6 +31,20 @@ module Alphabet
     return chars
   end
 
+  def self.get_chronological_letter_chars(letter)
+    curr = DOCUMENT[letter]
+    width = curr[0]['width']
+    height = curr[1]['height']
+    chars = curr[2]['chars']
+    chrono_chars = ''
+    width.times do |m|
+      height.times do |n|
+        chrono_chars += chars[(m + (n*7)), 1]
+      end
+    end
+    return chrono_chars
+  end
+
   def self.letter_to_hash(letter)
     curr = DOCUMENT[letter]
     width = curr[0]['width']
