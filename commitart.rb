@@ -29,9 +29,9 @@ module CommitArt
     repo = Rugged::Repository.new(repo_path)
     # make sure we only working with no more than 7 letters
     chars = letters[0,7]
-    char_maps = chars.split("").map do |char|
-      Alphabet.letter_to_hash(char)
-    end
+#    char_maps = chars.split("").map do |char|
+#      Alphabet.letter_to_hash(char)
+#    end
     char_strings = chars.split("").map do |char|
       Alphabet.get_letter_chars(char)
     end
