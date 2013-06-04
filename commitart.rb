@@ -84,23 +84,51 @@ module CommitArt
       return
     end
     # get the stuff we need from the repo (head commit, tree, etc.)
-    curr_ref = "HEAD"
+    curr_ref = repo.head.name
     curr_commit = repo.lookup(repo.head.target)
-    curr_tree = curr_commit.tree
+
     # create the author hash
     time = date.to_i
     count.times do |x|
+      # create the author hash for this commit
       author = {:email=>EMAIL,:time=>Time.at(time),:name=>USERNAME}
-      curr_commit = Rugged::Commit.create(repo,
+
+      # create the commit's blob and tree
+      oid = repo.write("Some content for this blob - #{Time.at(time)}.", :blob)
+      index = repo.index
+      index.add(:path => 'test.txt', :oid => oid, :mode => 0100644)
+      curr_tree = index.write_tree(repo)
+
+      new_commit_id = Rugged::Commit.create(repo,
                             :author => author,
                             :message => "CommitArt commit at #{Time.at(time)}.",
                             :committer => author,
-                            :parents => ["#{curr_commit.oid}"],
+                            :parents => [curr_commit.oid],
                             :tree => curr_tree,
                             :update_ref => curr_ref)
-      curr_tree = curr_commit.tree
+      curr_commit = repo.lookup(new_commit_id)
       time = time + 1
     end
+  end
+
+  def self.create_commit(repo, date, count)
+    # create the tree for the commit
+    oid = repo.write("Some test content for the repo - #{date}", :blob)
+    index = repo.index
+    index.add(:path => 'test.txt', :oid => oid, :mode => 0100644)
+    curr_tree = index.write_tree(repo)
+
+    curr_ref = "HEAD"
+    curr_commit = repo.lookup(repo.head.target)
+    # create the author commit
+    author = {:email=>EMAIL,:time=>date,:name=>USERNAME}
+    curr_commit = Rugged::Commit.create(repo,
+                          :author => author,
+                          :message => "Test Commit at #{date}.",
+                          :committer => author,
+                          :parents => [curr_commit.oid],
+                          :tree => curr_tree,
+                          :update_ref => curr_ref)
   end
 
 end
