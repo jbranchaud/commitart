@@ -11,3 +11,8 @@ I did this project as a way of learning how to use the
 
 Using the letters from the `alphabet.yml` file, I was able to write `GITHUB`
 in the contribution history.
+
+## License
+
+Copyright &copy; 2013 [Josh Branchaud](http://joshbranchaud.com) under the
+MIT License. See LICENSE for details.
