@@ -14,6 +14,23 @@ Check out the picture below or [see it live](https://github.com/commitart).
 Using the letters from the `alphabet.yml` file, I was able to write `GITHUB`
 in the contribution history.
 
+## How to run it
+
+First, set the `EMAIL` and `USERNAME` values in `commitart.rb` to whatever
+values you want for the committer and author of the commits.
+
+Then, run `ruby commitart.rb /absolute/path/to/existing/repo GITHUB`
+
+Assumption: the repository you are targeting already exists.
+
+## Related
+
+[gitfiti](https://github.com/gelstudios/gitfiti) by
+[gelstudios](https://github.com/gelstudios) is similar to what I've done,
+but also much cooler. This guy draws pictures like the '1up' mushroom from
+Mario. It also uses a different approach: raw git commands invoked from a
+python script.
+
 ## License
 
 Copyright &copy; 2013 [Josh Branchaud](http://joshbranchaud.com) under the
