@@ -9,7 +9,7 @@ I did this project as a way of learning how to use the
 
 Check out the picture below or [see it live](https://github.com/commitart).
 
-![GITHUB CommitArt](http://i.imgur.com/a9GGiWi.png)
+![GITHUB CommitArt](http://i.imgur.com/e6DlzfA.png)
 
 Using the letters from the `alphabet.yml` file, I was able to write `GITHUB`
 in the contribution history.
