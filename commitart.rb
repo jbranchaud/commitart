@@ -136,3 +136,10 @@ module CommitArt
   end
 
 end
+
+if __FILE__ == $0
+  # grab the first two arguments
+  repo_path = ARGV[0]
+  word = ARGV[1]
+  CommitArt.create_commit_art(repo_path, word)
+end
