@@ -35,5 +35,6 @@ python script.
 
 ## License
 
-Copyright &copy; 2013 [Josh Branchaud](http://joshbranchaud.com) under the
-MIT License. See LICENSE for details.
+Copyright &copy; 2013-2014 [Josh Branchaud](http://joshbranchaud.com)
+
+Licensed under the MIT License. See LICENSE for details.
