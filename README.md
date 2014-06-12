@@ -7,7 +7,9 @@ I did this project as a way of learning how to use the
 [Rugged](https://github.com/libgit2/rugged) library which is a ruby binding to
 [libgit2](https://github.com/libgit2/libgit2).
 
-Check out the picture below or [see it live](https://github.com/commitart).
+Check out the picture below or [see it live](https://github.com/commitart)
+(note: more than a year has passed since I created this, so the contribution
+graph for this account now looks empty).
 
 ![GITHUB CommitArt](http://i.imgur.com/e6DlzfA.png)
 
