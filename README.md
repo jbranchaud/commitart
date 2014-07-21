@@ -29,7 +29,8 @@ Assumption: the repository you are targeting already exists.
 
 [gitfiti](https://github.com/gelstudios/gitfiti) by
 [gelstudios](https://github.com/gelstudios) is similar to what I've done,
-but also much cooler. This guy draws pictures like the '1up' mushroom from
+but also much cooler.
+This repository allows you to draws pictures like the '1up' mushroom from
 Mario. It also uses a different approach: raw git commands invoked from a
 python script.
 
