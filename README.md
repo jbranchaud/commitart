@@ -27,12 +27,12 @@ Assumption: the repository you are targeting already exists.
 
 ## Related
 
-[gitfiti](https://github.com/gelstudios/gitfiti) by
-[gelstudios](https://github.com/gelstudios) is similar to what I've done,
-but also much cooler.
-This repository allows you to draws pictures like the '1up' mushroom from
-Mario. It also uses a different approach: raw git commands invoked from a
-python script.
+- [gitfiti](https://github.com/gelstudios/gitfiti) - uses python to make raw
+  git calls and allows you to draw pictures such as the '1up' mushroom from
+  Mario.
+- [github-contributions](https://github.com/IonicaBizau/github-contributions)
+  \- uses JavaScript and provides a GUI for designing the look of the
+  contribution calendar to be generated.
 
 ## License
 
