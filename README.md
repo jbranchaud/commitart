@@ -18,12 +18,18 @@ in the contribution history.
 
 ## How to run it
 
-First, set the `EMAIL` and `USERNAME` values in `commitart.rb` to whatever
-values you want for the committer and author of the commits.
+First, set environment variable for the script to use. Both the email and
+the user need to be configured for the script to run. The environment
+variables for the email and username are `COMMIT_ART_EMAIL` and
+`COMMIT_ART_USERNAME`, respectively.
 
-Then, run `ruby commitart.rb /absolute/path/to/existing/repo GITHUB`
+Then, run
 
-Assumption: the repository you are targeting already exists.
+```
+$ ruby commitart.rb /absolute/path/to/existing/repo GITHUB
+```
+
+*Assumption: the repository you are targeting already exists.*
 
 ## Related
 

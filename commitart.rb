@@ -20,8 +20,8 @@ module CommitArt
   # author of the commits that are generated. These need to be set to the
   # email and username of the GitHub account to which you wish the commits
   # to be attributed.
-  EMAIL = "commitart1337@gmail.com"
-  USERNAME = "commitart"
+  EMAIL = ENV['COMMIT_ART_EMAIL']
+  USERNAME = ENV['COMMIT_ART_USERNAME']
 
   # create_commit_art
   #
