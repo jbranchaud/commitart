@@ -33,6 +33,9 @@ Assumption: the repository you are targeting already exists.
 - [github-contributions](https://github.com/IonicaBizau/github-contributions)
   \- uses JavaScript and provides a GUI for designing the look of the
   contribution calendar to be generated.
+- [git-draw](https://github.com/ben174/git-draw) - interactive chrome plugin
+  that allows you to draw directly on the heat map and then export the
+  script.
 
 ## License
 
