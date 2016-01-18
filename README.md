@@ -39,6 +39,6 @@ Assumption: the repository you are targeting already exists.
 
 ## License
 
-Copyright &copy; 2013-2015 [Josh Branchaud](http://joshbranchaud.com)
+Copyright &copy; 2013-2016 [Josh Branchaud](http://joshbranchaud.com)
 
 Licensed under the MIT License. See LICENSE for details.
